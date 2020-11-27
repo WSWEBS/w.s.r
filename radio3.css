@@ -1,0 +1,111 @@
+*{
+
+    font-family: 'Amiri', serif;
+max-width: 100%;
+    max-height: 100%;
+}
+body{
+    background: linear-gradient(to right , red , blue);
+}
+main{
+width: 360px;
+position: absolute;
+left: 50%;
+transform: translateX(-50%);
+margin: 0px; 
+
+box-shadow: black 10px;
+}
+ header{
+     width: 100%;
+     height: 300px;
+    text-align: center;
+    margin: 0px 0px;
+    
+}
+header h1{
+     font-size: 40px;
+}
+header p {
+font-size:25px;
+}
+header img{
+    margin: 30px 0 ;
+}
+#div1{
+height: 900px;
+
+    
+}
+#buttons{
+display: flex;
+justify-content: center;
+margin: 5px 0 ;
+
+
+}
+#buttons img{ 
+width: 45px;
+height: 45px;
+margin:5px 10px;
+}
+#volume{
+    text-align: center;
+
+    height: 500px;
+
+}
+#volume input{
+width: 100%;
+margin: 5px 0;
+
+}
+h2{
+    font-size: 35px;
+    margin: 5px 0;
+}
+#buttons_color{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+}
+#buttons_color button{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    outline: none;
+
+}
+#color1{
+    background: linear-gradient(to right , red , blue);
+}
+#color2{
+background: linear-gradient(to right, #c31432, #240b36);
+}
+#color3{
+background:  linear-gradient(to right, #a8ff78, #78ffd6);
+}
+#color4{
+background: linear-gradient(to right, #8a2387, #e94057, #f27121);
+
+}
+#color5{
+    background: linear-gradient(to right, #bdc3c7, #2c3e50);
+}
+#color6{
+    background:  linear-gradient(to right, #0f0c29, #302b63, #24243e);
+}
+#color7{
+    background: linear-gradient(to right, #9796f0, #fbc7d4);
+}
+footer{
+    margin: 0px;
+    padding: 0px;
+text-align: center;
+
+}
+#aaa{
+text-decoration-line: none;
+color: black;
+}
